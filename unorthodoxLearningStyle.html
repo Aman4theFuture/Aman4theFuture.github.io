@@ -55,7 +55,7 @@
 						 <b> A basic 4-function Calculator using java (school), a Palindrome program using Java (school), a simple photo editor that lets you choose between a set number of filters in Python
 							  (personal), a tic-tac-toe game using Java (school), and this very website (personal).</b>
 					 </p>
-					<p><b>Palindrome Program<b></p>
+					<p><b>Palindrome Program: <b></p>
 					 <pre><code>import java.util.Scanner;
 
 	public class Main
@@ -77,6 +77,50 @@
 }
 
 </code></pre>
+
+<p><b>4 Function Calculator: <b></p>
+<pre><code>import java.util.Scanner;
+
+public class Main{
+        public static void main(String[] args) {
+           
+            Scanner input = new Scanner(System.in);
+           
+            System.out.println("Enter first number: ");
+            double firstNum = input.nextDouble();
+           
+            System.out.println("Enter second number: ");
+            double secondNum = input.nextDouble();
+            
+            System.out.println("Enter third number: ");
+            double thirdNum = input.nextDouble();
+           
+            System.out.println("Enter the operation");
+System.out.println("For addition + ");
+System.out.println("For subtraction - ");
+System.out.println("For multiplication * ");
+System.out.println("For division / : ");
+   
+   char oper = input.next().charAt(0);
+   
+   if(oper == '+') {
+   System.out.println("The sum of "+firstNum+" and "+secondNum+" and "+thirdNum+" = "+(firstNum+secondNum+thirdNum));
+   }else if(oper == '-') {
+   System.out.println("The subtraction of "+firstNum+" and "+secondNum+" and "+thirdNum+" = "+(firstNum-secondNum-thirdNum));
+    }else if(oper == '*') {
+   System.out.println("The multiplication of "+firstNum+" and "+secondNum+" and "+thirdNum+" = "+(firstNum*secondNum*thirdNum));
+   }else if(oper == '/') {
+   System.out.println("The division of "+firstNum+" and "+secondNum+" and "+thirdNum+" = "+(firstNum/secondNum/thirdNum));
+   }else {
+   System.out.println("Invalid Input");
+   }
+        }
+}
+
+</code></pre>
+
+
+
 					
 					
 					
