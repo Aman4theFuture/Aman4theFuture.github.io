@@ -10,5 +10,9 @@ I created this portfolio using the skills and knowledge I acquired through self-
 - [freeCodeCamp](https://www.freecodecamp.org/)  
 - [YouTube](https://www.youtube.com/)
 
+## View My Portfolio
+You can check out my portfolio live at:  
+🔗 **[My High School Portfolio](https://aman4thefuture.github.io/)**  
+
 ## Conclusion
 This collection serves as a testament to my dedication to continuous learning and my passion for coding. I look forward to continuing my education and pursuing a major in Computer Science.
